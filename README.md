@@ -1,8 +1,15 @@
-### 项目简介
-基于OpenCV与mediapipe库实现一款便携智能钢琴。通过摄像头识别到手指对应的按键位置，同时发出对应的音调，并在上位机上显示对应的音符。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2fc2eb7ce5004fa59d7f6cd38023014f.png)
-使用双目相机定位及三维重建；通过手与纸质琴键相对位置的判断来确定是否按下，并由电脑所带的音响设备发出声音，并指出对应的音阶。
+### Introduction
+Based on OpenCV and media apipe library, it implements a portable smart piano. The camera recognizes the position of the corresponding button of the finger, emits the corresponding tone, and displays the corresponding note on the host computer.
 
-### 项目背景
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2fc2eb7ce5004fa59d7f6cd38023014f.png)
+
+Positioning and 3D reconstruction using binocular cameras; Determine whether to press it by judging the position of the hand relative to the paper keys, and the sound is emitted by the sound equipment brought by the computer, and the corresponding scale is indicated.
+
+### Background
 对于一些落后地区，由于资金不足，音乐课的教学成为了很大的一个问题。再而对于钢琴这种极其昂贵的乐器，购买更是一个不可能实现的事情。
-但随着现代自动化程度的不断提高，计算机技术的普及，对于钢琴的使用也可以朝着自动化、智能化的方向发展。通过计算机的控制，实现纸质钢琴的音调播放及教学无疑就成为一项重要课题。开发便捷，对落后地区的音乐教学有重要的现实意义。  
+但随着现代自动化程度的不断提高，计算机技术的普及，对于钢琴的使用也可以朝着自动化、智能化的方向发展。通过计算机的控制，实现纸质钢琴的音调播放及教学无疑就成为一项重要课题；开发便捷，对落后地区的音乐教学有重要的现实意义。  
+
+### Development
+ - python-opencv
+ - midiapipe
+ - pygame
